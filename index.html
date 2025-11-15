@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Azeez Adams BinCom</title>
+  <meta name="description" content="Single-page personal website / CV and portfolio">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">AAA</div>
+        <div>
+          <div class="brand-name">AZEEZ ADAMS ADEDEJI</div>
+          <div class="muted">Self-taught web Developer •  Frontend enthusiast</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about" class="active">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#gallery">Pictures</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="hero">
+        <div>
+          <div class="card">
+            <h1>AZEEZ ADAMS ADEDEJI</h1>
+            <p class="lead">
+
+Aspiring software developer with a strong background in clients relations, digital engagement, and data-driven project execution. possesses excellent problem solving skills with proven adaptability and a passion for continuous learning</p>
+
+            <div class="info-list">
+              <div class="info-item"><strong>Email</strong><div class="muted">azeezadamsadedeji@gmail.com</div></div>
+              <div class="info-item"><strong>Location</strong><div class="muted">Lagos, Nigeria</div></div>
+              <div class="info-item"><strong>Education</strong><div class="muted">BSc Finance</div></div>
+            </div>
+
+            <div class="skills-section">
+              <strong>Skills</strong>
+              <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Git</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-experience">
+            <div class="card">
+              <div class="section-title"><strong>Experience</strong></div>
+              <div class="experience-item">
+                <div><strong>Retail representative</strong> Handled the store’s daily operations – receiving, attending to and following up on orders.
+• Consistently adhered to strict time shifts and scheduling requirements, ensuring punctuality and efficient shift transitions.
+• Delivered exceptional customer service to enhance client experience <span class="muted">(Nov 2020 – Mar 2022)</span></div>
+              </div>
+            </div>
+
+                  <div class="education-experience">
+            <div class="card">
+              <div class="experience-item">
+                <div><strong>Social Media Intern</strong> <br> Handled the store's daily operations receiving, attending to and following up on orders.
+• Consistently adhered to strict time shifts and scheduling requirements, ensuring punctuality and efficient shift transitions.
+• Delivered exceptional customer service to enhance client experience <span class="muted">(Apr 2023 – Oct 2024)</span></div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="section-title"><strong>Education</strong></div>
+              <div class="education-item">
+                <div><strong>University</strong> — Degree <span class="muted">(Year — Year)</span></div>
+                <div class="muted">Relevant courses: Web Development, Programming Fundamentals.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card profile">
+            <img src="images/profile.jpg" alt="Your profile picture" />
+          </div>
+
+          <div class="card contact-quick">
+            <strong>Contact quick</strong>
+            <div class="muted">azeezadamsadedeji@gmail.com<br/>+234 800 000 0000</div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="projects">
+        <div class="section-title"><h2>Selected Projects</h2></div>
+        <div class="projects">
+          <article class="project card"><h3>Project One</h3><p>Short description. Tech used: HTML, CSS, JavaScript.</p></article>
+          <article class="project card"><h3>Project Two</h3><p>Short description. Link to live demo or GitHub.</p></article>
+          <article class="project card"><h3>Project Three</h3><p>Short description. Explain your role and challenges solved.</p></article>
+          <article class="project card"><h3>Project Four</h3><p>Short description. Keep it short and easy to scan.</p></article>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <div class="section-title"><h2>Pictures</h2></div>
+        <div class="gallery card">
+          <img src="images/photo1.jpg" alt="Photo 1" data-full="images/photo1.jpg" />
+          <img src="images/photo2.jpg" alt="Photo 2" data-full="images/photo2.jpg" />
+          <img src="images/photo3.jpg" alt="Photo 3" data-full="images/photo3.jpg" />
+          <img src="images/photo4.jpg" alt="Photo 4" data-full="images/photo4.jpg" />
+          <img src="images/photo5.jpg" alt="Photo 5" data-full="images/photo5.jpg" />
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-title"><h2>Contact Me</h2></div>
+        <div class="card">
+          <form id="contactForm">
+            <input type="text" id="name" placeholder="Your name" required />
+            <input type="email" id="email" placeholder="Your email" required />
+            <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+            <button type="submit">Send message</button>
+            <div id="formMsg" class="muted"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="muted"> All right reserved© <span id="year"></span> AZEEZ ADAMS  ADEDEJI • Built with HTML • CSS </div>
+    </footer>
+  </div>
+
+  <div id="modal" class="modal" role="dialog" aria-hidden="true">
+    <div class="close-btn">✕</div>
+    <img id="modalImg" src="" alt="Large view" />
+  </div>
+
+  <!-- <script src="script.js"></script> -->
+</body>
+</html>
