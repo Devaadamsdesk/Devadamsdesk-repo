@@ -44,7 +44,7 @@ header {
   width: 56px;
   height: 56px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--accent), #00c2ff);
+  background: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,17 +135,6 @@ p.lead {
   color: var(--accent);
 }
 
-.section-title {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.projects {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-}
 
 @media (max-width: 700px) {
   .projects {
@@ -153,29 +142,6 @@ p.lead {
   }
 }
 
-.project h3 {
-  margin: 0 0 8px 0;
-}
-
-.project p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 14px;
-}
-
-.gallery {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.gallery img {
-  width: calc(20% - 6px);
-  border-radius: 8px;
-  cursor: pointer;
-  object-fit: cover;
-  height: 120px;
-}
 
 @media (max-width: 700px) {
   .gallery img {
